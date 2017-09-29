@@ -1,0 +1,19 @@
+package com.bow.heap;
+import com.bow.chainexception.*;
+
+public class InvalidUpdateException extends ChainException{
+
+
+  public InvalidUpdateException ()
+  {
+     super();
+  }
+
+  public InvalidUpdateException (Exception ex, String name)
+  {
+    super(ex, name);
+  }
+
+
+
+}
